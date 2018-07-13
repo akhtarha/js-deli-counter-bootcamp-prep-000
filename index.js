@@ -22,7 +22,7 @@ function currentLine (arr){
     return "The line is currently empty."
   } else {
     for (var i = 0; i < arr.length; i++){
-      str += ` ${i+1}. ${arr[i]} ${i==arr.length ? '' : ','}`
+      str += ` ${i+1}. ${arr[i]}${i==arr.length ? '' : ','}`
     }
     str = str.replace(/,$/, "")
     return str
