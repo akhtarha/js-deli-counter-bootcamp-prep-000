@@ -4,8 +4,10 @@ function takeANumber (katzDeliLine, name){
   return `Welcome, ${name}. You are number ${numberInLine} in line.`
 }
 
-function nowServing(){
-  if 
+function nowServing(arr){
+  if (arr === ""){
+    return "There is no one in line."
+  }
   nwServing = katzDeliLine[0];
   nwServing.shift()
   
