@@ -8,8 +8,8 @@ function nowServing(arr){
   if (arr === ""){
     return "There is nobody waiting to be served!"
   }else{
-    nwServing = a[0];
-    nwServing.shift()
+    nwServing = arr[0];
+    arr.shift()
     
   }
   
