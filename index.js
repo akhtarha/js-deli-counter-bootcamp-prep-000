@@ -25,6 +25,6 @@ function currentLine (arr){
       str += ` ${i+1}. ${arr[i]},`
     }
     str = str.replace(/,$/, "")
-    return 
+    return str
   }
 }
