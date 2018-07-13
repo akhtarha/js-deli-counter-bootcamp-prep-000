@@ -3,3 +3,8 @@ function takeANumber (katzDeliLine, name){
   var numberInLine = katzDeliLine.indexOf(name)
   return `Welcome, ${name}. You are number ${numberInLine} in line.`
 }
+
+function nowServing(){
+  nwServing = katzDeliLine[0];
+  
+}
