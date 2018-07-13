@@ -17,10 +17,13 @@ function nowServing(arr){
 }
 
 function currentLine (arr){
-  str = ""
+  str = "The line is currently: "
   if (arr.length === 0){
     return "The line is currently empty."
   } else {
-    for (var i = 0; ){}
+    for (var i = 0; i < arr.length; i++){
+      str += `${i+1}. ${arr[i]}`
+    }
+    return str
   }
 }
