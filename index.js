@@ -9,7 +9,7 @@ function nowServing(arr){
   if (arr.length === 0){
     return "There is nobody waiting to be served!"
   }else{
-    nwServing = arr[0];
+    var nwServing = arr[0];
     currentlyServing = `Currently serving ${nwServing}.`
     arr.shift()
     return currentlyServing
