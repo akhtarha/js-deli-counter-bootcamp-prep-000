@@ -13,7 +13,11 @@ function nowServing(arr){
     var currentlyServing = `Currently serving ${nwServing}.`
     arr.shift()
     return currentlyServing
+  }
+}
+
+function currentLine (arr){
+  if (arr.length === 0){
     
   }
-  
 }
