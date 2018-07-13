@@ -6,9 +6,11 @@ function takeANumber (katzDeliLine, name){
 
 function nowServing(arr){
   if (arr === ""){
-    return "There is no one in line."
+    return "There is nobody waiting to be served!"
+  }else{
+    nwServing = a[0];
+    nwServing.shift()
+    
   }
-  nwServing = katzDeliLine[0];
-  nwServing.shift()
   
 }
